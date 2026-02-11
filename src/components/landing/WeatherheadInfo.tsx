@@ -103,7 +103,7 @@ const WeatherheadInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Shield className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Don't touch downed wires. Call for emergency service: (877) 792-1410.
+                            Don't touch downed wires. Call for emergency service: (380) 266-0944.
                         </span>
                     </div>
                 </div>

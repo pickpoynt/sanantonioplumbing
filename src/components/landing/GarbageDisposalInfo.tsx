@@ -222,7 +222,7 @@ const GarbageDisposalInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-green-600 rounded-full px-8 py-4 shadow-lg hover:bg-green-700 transition-colors">
                         <Home className="w-6 h-6 text-white" />
                         <span className="text-white font-bold text-lg">
-                            Fix humming garbage disposal Signal Mountain. Call (877) 792-1410 now.
+                            Fix humming garbage disposal Signal Mountain. Call (380) 266-0944 now.
                         </span>
                     </div>
                     <p className="text-slate-600 mt-4 text-sm">

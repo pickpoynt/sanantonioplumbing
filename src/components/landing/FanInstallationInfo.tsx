@@ -105,7 +105,7 @@ const FanInstallationInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Wind className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Ready to feel the breeze? Schedule today: (877) 792-1410
+                            Ready to feel the breeze? Schedule today: (380) 266-0944
                         </span>
                     </div>
                 </div>

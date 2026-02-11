@@ -221,7 +221,7 @@ const LeakDetectionInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-blue-600 rounded-full px-8 py-4 shadow-lg hover:bg-blue-700 transition-colors">
                         <Home className="w-6 h-6 text-white" />
                         <span className="text-white font-bold text-lg">
-                            Leak detection Albuquerque NM. Call (877) 792-1410 now.
+                            Leak detection Albuquerque NM. Call (380) 266-0944 now.
                         </span>
                     </div>
                     <p className="text-slate-600 mt-4 text-sm">

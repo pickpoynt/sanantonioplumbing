@@ -129,9 +129,9 @@ const SepticTankPumpingInfo = () => {
                             A failed drain field can cost over $15,000 to replace in North Dakota. Regular pumping is the single most important maintenance step you can take to prevent solids from clogging your leach field and causing system failure.
                         </p>
                         <Button size="lg" className="bg-white text-emerald-900 hover:bg-emerald-50 font-bold border-none" asChild>
-                            <a href="tel:8777921410" className="flex items-center gap-2">
+                            <a href="tel:3802660944" className="flex items-center gap-2">
                                 <Phone className="w-5 h-5" />
-                                Schedule Pumping: (877) 792-1410
+                                Schedule Pumping: (380) 266-0944
                             </a>
                         </Button>
                     </div>

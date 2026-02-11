@@ -1,4 +1,4 @@
-import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck, Droplets, Waves, Home, Microscope, GlassWater, Hammer } from "lucide-react";
+import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck, Droplets, Waves, Home, Microscope, GlassWater, Hammer, Biohazard, FlaskConical, ClipboardCheck } from "lucide-react";
 
 const services = [
   {
@@ -16,76 +16,54 @@ const services = [
   {
     icon: ShieldCheck,
     title: "HEPA Air Scrubbing",
-    description: "Industrial-grade air filtration to capture 99.97% of mold spores, preventing contamination of your home.",
-    link: "#kitchen-mold-info"
+    description: "Industrial-grade filtration that traps 99.97% of toxic mold particulates as small as 0.3 microns.",
+    link: "#toxic-mold-info"
   },
   {
-    icon: GlassWater,
-    title: "Moisture Mitigation",
-    description: "Digital analysis of humidity levels in your kitchen to prevent future fog-moisture accumulation.",
-    link: "#kitchen-mold-info"
+    icon: Microscope,
+    title: "Lab Verification",
+    description: "Independent laboratory air and surface testing to certify that your home is safe for re-entry.",
+    link: "#toxic-mold-info"
   },
   {
-    icon: Sparkles,
-    title: "Cabinet Restoration",
-    description: "Specialized cleaning and structural drying to save your high-end Sausalito cabinetry from rot.",
-    link: "#kitchen-mold-info"
-  },
-  {
-    icon: Shield,
-    title: "Non-Toxic Sealants",
-    description: "Applying EPA-registered coatings that prevent mold roots from penetrating porous wood surfaces.",
-    link: "#kitchen-mold-info"
-  },
-  {
-    icon: Activity,
-    title: "Post-Removal Testing",
-    description: "Independent air quality testing to certify your kitchen is professionally dry and safe for food prep.",
-    link: "#kitchen-mold-info"
-  },
-  {
-    icon: Zap,
-    title: "1-Hour Sausalito ETA",
-    description: "Marin County's fastest kitchen mold diagnostic crew. Available 24/7 for emergency water damage calls.",
-    link: "#kitchen-mold-info"
+    icon: FlaskConical,
+    title: "Mycotoxin Remediation",
+    description: "Specialized neutralization of secondary toxic metabolites released by black mold colonies.",
+    link: "#toxic-mold-info"
   }
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Sausalito's Premier Kitchen Mold Restoration
+        <div className="text-center mb-16 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
+            Clinical Mold Remediation Services
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Protect your home's value and your health. Our Sausalito team uses specialized kitchen equipment and Marin County moisture protocols.
+          <p className="text-xl text-slate-600 font-medium">
+            Toxic black mold requires more than just cleaning—it requires surgical precision and scientific verification. Our Ambler team follows strict biohazard protocols.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
-          {services.map((service, index) => {
-            const Icon = service.icon;
-            return (
-              <div
-                key={index}
-                className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
-              >
-                <a href={service.link}>
-                  <div className="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center mb-4 group-hover:bg-indigo-600 transition-colors">
-                    <Icon className="w-6 h-6 text-indigo-600 group-hover:text-white transition-colors" />
-                  </div>
-                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition-colors">
-                    {service.title}
-                  </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed">
-                    {service.description}
-                  </p>
-                </a>
-              </div>
-            );
-          })}
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-red-500/10 hover:-translate-y-1 transition-all duration-300"
+            >
+              <a href={service.link}>
+                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors">
+                  <service.icon className="w-8 h-8 text-red-600 group-hover:text-white transition-colors" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-red-700">{service.title}</h3>
+                <p className="text-slate-600 leading-relaxed font-medium mb-4">{service.description}</p>
+                <div className="flex items-center gap-2 text-red-600 font-bold text-sm uppercase tracking-wider">
+                  Details <ClipboardCheck className="w-4 h-4" />
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>

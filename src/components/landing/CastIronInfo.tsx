@@ -106,7 +106,7 @@ const CastIronInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Home className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Schedule your free video inspection today: (877) 792-1410
+                            Schedule your free video inspection today: (380) 266-0944
                         </span>
                     </div>
                 </div>

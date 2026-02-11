@@ -2,9 +2,8 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import KitchenCabinetMoldInfo from "@/components/landing/KitchenCabinetMoldInfo";
+import ToxicBlackMoldInfo from "@/components/landing/ToxicBlackMoldInfo";
 import FAQ from "@/components/landing/FAQ";
-
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
@@ -16,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Kitchen cabinet mold removal Sausalito | Sausalito Kitchen Mold Experts</title>
-        <meta name="description" content="Kitchen cabinet mold removal Sausalito. Specialized mold remediation for kitchen cabinetry, leak detection, and food-safe cleaning in Marin County. Call (380) 266-0944!" />
-        <meta name="keywords" content="kitchen cabinet mold removal Sausalito, kitchen mold remediation Sausalito CA, Sausalito cabinet leak repair, Marin County kitchen mold inspector" />
-        <link rel="canonical" href="https://sausalito-kitchen-mold.com/" />
+        <title>Toxic black mold removal Ambler | Ambler Toxic Mold Specialists</title>
+        <meta name="description" content="Toxic black mold removal Ambler. Professional remediation for Stachybotrys chartarum, basement mold removal, and HEPA air scrubbing in Montgomery County. Call (380) 266-0944!" />
+        <meta name="keywords" content="toxic black mold removal Ambler, black mold remediation Ambler PA, Montgomery County mold inspector, Stachybotrys removal Ambler" />
+        <link rel="canonical" href="https://ambler-toxic-mold.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Sausalito Kitchen Mold Experts",
-            "image": "https://images.unsplash.com/photo-1620626011761-9963d7521576?auto=format&fit=crop&q=80",
+            "name": "Ambler Toxic Mold Specialists",
+            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Sausalito",
-              "addressRegion": "CA",
-              "postalCode": "94965",
+              "addressLocality": "Ambler",
+              "addressRegion": "PA",
+              "postalCode": "19002",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "37.8591",
-              "longitude": "-122.4853"
+              "latitude": "40.1545",
+              "longitude": "-75.2216"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Sausalito, California"
+              "name": "Ambler, Pennsylvania"
             },
             "priceRange": "$$$",
-            "description": "Premium kitchen cabinet mold removal and leak detection in Sausalito, CA. We specialize in non-toxic, food-safe remediation for luxury kitchens."
+            "description": "Certified toxic black mold removal and Stachybotrys remediation in Ambler, PA. Specialized in negative air containment and HEPA air scrubbing."
           })}
         </script>
 
@@ -56,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Kitchen Cabinet Mold Removal",
+            "serviceType": "Toxic Black Mold Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Sausalito Kitchen Mold Experts",
+              "name": "Ambler Toxic Mold Specialists",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Sausalito, California"
+              "name": "Ambler, Pennsylvania"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Kitchen Restoration Services",
+              "name": "Mold Remediation Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Cabinet Mold Remediation"
+                    "name": "Toxic Black Mold Extraction"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Infrared Leak Detection"
+                    "name": "Negative Air Pressure Containment"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HEPA Air Filtration"
+                    "name": "HEPA Air Purification"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Food-Safe Antimicrobial Treatment"
+                    "name": "Mycotoxin Remediation"
                   }
                 }
               ]
@@ -104,34 +103,32 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Kitchen cabinet mold removal Sausalito | Kitchen Mold Experts" />
-        <meta property="og:description" content="Professional kitchen cabinet mold removal in Sausalito, CA. 24/7 leak detection and food-safe remediation. Call (380) 266-0944 for an inspection." />
+        <meta property="og:title" content="Toxic black mold removal Ambler | Ambler Toxic Mold Specialists" />
+        <meta property="og:description" content="Professional toxic black mold removal in Ambler, PA. 24/7 emergency remediation and HEPA air scrubbing. Call (380) 266-0944 for an inspection." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sausalito-kitchen-mold.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1620626011761-9963d7521576?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://ambler-toxic-mold.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
       </Helmet>
-
 
       <Header />
       <main>
         <Hero
           title={
             <>
-              Kitchen cabinet mold removal Sausalito
-              <span className="block text-indigo-400 mt-2">Sausalito Kitchen Mold Experts: Cabinet Restoration Pros</span>
+              Toxic black mold removal Ambler
+              <span className="block text-red-500 mt-2 text-2xl md:text-4xl">Ambler Toxic Mold Specialists: Bio-Hazard Remediation</span>
             </>
           }
-          subtitle="Protect your luxury kitchen from hidden moisture. Our specialized cabinet remediation and Marin-grade leak detection systems target spores trapped behind your woodwork—ensuring food safety with Sausalito precision."
-          image="https://images.unsplash.com/photo-1556912177-c54030639a9c?auto=format&fit=crop&q=80"
+          subtitle="Don't compromise your health with Stachybotrys chartarum. Our specialized bio-hazard crews use surgical negative-air containment and industrial HEPA systems to eradicate toxic black mold from your Ambler home with clinical precision."
+          image="https://images.unsplash.com/photo-1590644365607-1c5a519a7a37?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <KitchenCabinetMoldInfo />
+        <ToxicBlackMoldInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
       </main>
-
       <Footer />
       <FloatingCallButton />
     </div>

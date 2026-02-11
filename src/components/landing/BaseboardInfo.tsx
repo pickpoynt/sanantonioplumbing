@@ -105,7 +105,7 @@ const BaseboardInfo = () => {
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
             <Wifi className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Get a free quote today. Call (877) 792-1410.
+              Get a free quote today. Call (380) 266-0944.
             </span>
           </div>
         </div>

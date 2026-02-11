@@ -186,7 +186,7 @@ const EjectorPumpInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-orange-600 rounded-full px-8 py-4 shadow-lg hover:bg-orange-700 transition-colors">
                         <Home className="w-6 h-6 text-white" />
                         <span className="text-white font-bold text-lg">
-                            Emergency ejector pump repair Augusta GA. Call (877) 792-1410 now.
+                            Emergency ejector pump repair Augusta GA. Call (380) 266-0944 now.
                         </span>
                     </div>
                     <p className="text-slate-600 mt-4 text-sm">

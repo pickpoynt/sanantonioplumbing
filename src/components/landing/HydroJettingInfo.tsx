@@ -117,7 +117,7 @@ export default function HydroJettingInfo() {
           <div className="mt-6 text-center">
             <p className="text-slate-600">
               Serving all of Tacoma with professional hydro jetting services.
-              Call (877) 792-1410 for immediate assistance.
+              Call (380) 266-0944 for immediate assistance.
             </p>
           </div>
         </div>

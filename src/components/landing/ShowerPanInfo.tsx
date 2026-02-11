@@ -105,7 +105,7 @@ const ShowerPanInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Home className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Stop the leak. Call (877) 792-1410 for expert repair.
+                            Stop the leak. Call (380) 266-0944 for expert repair.
                         </span>
                     </div>
                 </div>

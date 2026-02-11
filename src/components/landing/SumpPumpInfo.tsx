@@ -102,7 +102,7 @@ const SumpPumpInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-full px-8 py-4 border border-white/10">
                         <Hammer className="w-6 h-6 text-blue-400" />
                         <span className="text-white font-medium text-lg">
-                            Protect your Peoria basement today. Call (877) 792-1410.
+                            Protect your Peoria basement today. Call (380) 266-0944.
                         </span>
                     </div>
                 </div>

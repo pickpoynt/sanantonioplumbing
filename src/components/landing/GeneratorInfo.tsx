@@ -102,7 +102,7 @@ const GeneratorInfo = () => {
                     <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
                         <Shield className="w-6 h-6 text-copper" />
                         <span className="text-primary-foreground font-medium text-lg">
-                            Ready for the next outage? Call for a free estimate: (877) 792-1410.
+                            Ready for the next outage? Call for a free estimate: (380) 266-0944.
                         </span>
                     </div>
                 </div>

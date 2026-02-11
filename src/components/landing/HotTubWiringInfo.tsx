@@ -130,9 +130,9 @@ const HotTubWiringInfo = () => {
                             Des Moines code explicitly requires hardwired connections with specific safety disconnects to prevent electrocution hazards.
                         </p>
                         <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50 font-bold border-none" asChild>
-                            <a href="tel:8449012684" className="flex items-center gap-2">
+                            <a href="tel:3802660944" className="flex items-center gap-2">
                                 <Phone className="w-5 h-5" />
-                                Safety Inspection: (844) 901-2684
+                                Safety Inspection: (380) 266-0944
                             </a>
                         </Button>
                     </div>
