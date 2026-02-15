@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                BRIARCLIFF MANOR SEWER PROS
+                DALLAS PLUMBING PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule a <span className="text-blue-600">Sewer Inspection</span>
+                Schedule a <span className="text-blue-600">Plumbing Service</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Don't wait for a complete collapse. If you have slow drains, backups, or gurgling noises, our Briarcliff Manor team can diagnose the issue instantly with trenchless technology.
+                Don't wait for a small leak to become a flood. If you have dripping faucets, clogged drains, or water heater issues, our Dallas team can diagnose and fix the issue fast.
               </p>
 
               <div className="space-y-8">
@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-1">Trenchless Guarantee</p>
-                    <p className="text-xl font-bold text-slate-900">50-Year Structural Warranty</p>
+                    <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-1">Satisfaction Guarantee</p>
+                    <p className="text-xl font-bold text-slate-900">100% Workmanship Warranty</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Briarcliff Manor & Westchester County, NY</p>
+                    <p className="text-xl font-bold text-slate-900">Dallas & Surrounding Areas</p>
                   </div>
                 </div>
               </div>
@@ -78,11 +78,11 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Problem Type</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium">
-                    <option>Sewage Backup</option>
-                    <option>Slow Drains</option>
-                    <option>Tree Root Intrusion</option>
-                    <option>Collapsed Pipe</option>
-                    <option>Routine Inspection</option>
+                    <option>Leak Repair</option>
+                    <option>Clogged Drain</option>
+                    <option>Water Heater</option>
+                    <option>Toilet Repair</option>
+                    <option>Emergency Plumbing</option>
                   </select>
                 </div>
                 <div className="space-y-2">
@@ -90,14 +90,14 @@ const Contact = () => {
                   <textarea
                     rows={4}
                     className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium"
-                    placeholder="Describe the issue (e.g. basement backup, yard pooling water)..."
+                    placeholder="Describe the issue (e.g. leaking faucet, no hot water)..."
                   ></textarea>
                 </div>
                 <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-blue-900/20 uppercase tracking-widest">
                   Request Service
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *Fast response for sewer emergencies in Briarcliff Manor
+                  *Fast response for plumbing emergencies in Dallas
                 </p>
               </form>
             </div>

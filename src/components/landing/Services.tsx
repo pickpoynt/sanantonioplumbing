@@ -6,38 +6,38 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Sewer Solutions</span>
+            Comprehensive <span className="text-indigo-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Briarcliff Manor homeowners trust us for advanced sewer diagnostics and repair. We use technology to solve problems where others use shovels.
+            Dallas homeowners trust us for expert plumbing diagnostics and repair. We use technology to solve problems quickly and effectively.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              icon: Zap,
-              title: "Cured-in-Place (CIPP)",
-              description: "We create a new, seamless pipe inside your existing damaged one. It's stronger than PVC, joint-free, and resistant to future root intrusion.",
-              link: "#trenchless-info"
+              icon: Zap, // Using Zap for fast/emergency/leak
+              title: "Leak Detection",
+              description: "We use advanced acoustic and thermal imaging technology to find hidden leaks behind walls and under foundations without destruction.",
+              link: "#contact"
             },
             {
-              icon: Drill, // Using Drill as a proxy for bursting/force
-              title: "Pipe Bursting",
-              description: "For severely collapsed lines, we pull a new pipe through the old one, fracturing the damaged pipe outward while simultaneously laying the new line.",
-              link: "#trenchless-info"
+              icon: Drill, // Using Drill for installation/work
+              title: "Water Heaters",
+              description: "Whether you need a tankless upgrade or a repair for your traditional unit, we ensure you always have reliable hot water.",
+              link: "#contact"
             },
             {
               icon: Camera,
-              title: "HD Video Inspection",
-              description: "Don't guess. Our high-definition sewer cameras travel through your lines to pinpoint the exact location and nature of the blockage or break.",
-              link: "#trenchless-info"
+              title: "Drain Cleaning",
+              description: "From simple clogs to complex blockages, our professional drain cleaning services restore full flow to your home's plumbing.",
+              link: "#contact"
             },
             {
               icon: Waves,
-              title: "Hydro Jetting",
-              description: "We use high-pressure water streams to obliterate tree roots, grease buildup, and scale, restoring your pipe's original flow capacity.",
-              link: "#trenchless-info"
+              title: "Emergency Repair",
+              description: "Plumbing disasters don't wait for business hours. Our 24/7 team is ready to tackle burst pipes, overflows, and backups anytime.",
+              link: "#contact"
             }
           ].map((service, index) => (
             <div

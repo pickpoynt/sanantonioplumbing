@@ -7,24 +7,24 @@ import {
 
 const faqs = [
   {
-    question: "How does trenchless sewer repair work?",
-    answer: "We insert a resin-saturated liner into your existing damaged pipe. Once in place, the liner is cured (hardened), creating a seamless, structural new pipe within the old one. No digging required."
+    question: "Do you offer emergency plumbing in Dallas 24/7?",
+    answer: "Yes, we provide round-the-clock emergency service for Dallas and surrounding areas. Whether it's a burst pipe at 2 AM or a weekend leak, our rapid response team is always ready."
   },
   {
-    question: "Is trenchless repair as durable as traditional replacement?",
-    answer: "Yes, often more so. The Cured-in-Place Pipe (CIPP) we install has a 50-year design life, is joint-free (preventing root intrusion), and has better flow characteristics than clay or concrete pipes."
+    question: "Will you provide a price before starting the work?",
+    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate quote before any work begins."
   },
   {
-    question: "Will you need to dig up my Briarcliff Manor lawn?",
-    answer: "In 95% of cases, no. We access the sewer line through existing cleanouts or a small access point. Your driveway, landscaping, and hardscaping remain untouched."
+    question: "Are you licensed to handle Dallas slab leaks?",
+    answer: "Yes, we are fully licensed by the State of Texas and carry specialized insurance. We have extensive experience dealing with the specific foundation and slab leak challenges caused by Dallas's expansive clay soil."
   },
   {
-    question: "How long does the process take?",
-    answer: "Most residential trenchless repairs in Briarcliff Manor are completed in less than 24 hours. You'll have your water and sewer service back the same day."
+    question: "How do I know if my water heater needs to be replaced?",
+    answer: "If your unit is over 10 years old, shows signs of rust, makes rumbling noises, or isn't providing enough hot water, it's time for an inspection. We can help you decide if a repair or a more efficient tankless upgrade is best."
   },
   {
-    question: "Do you service older homes in Briarcliff Manor?",
-    answer: "Absolutely. We specialize in rehabilitating aging cast iron, clay, and Orangeburg pipes common in Briarcliff Manor's historic properties."
+    question: "Do you service older homes in Highland Park and University Park?",
+    answer: "Yes, we specialize in the unique plumbing needs of Dallas's historic neighborhoods. We can safely rehabilitate aging cast iron, galvanized steel, and copper piping systems common in these older estates."
   }
 ];
 
@@ -35,10 +35,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-blue-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            Sewer Repair <span className="text-blue-600">FAQ</span>
+            Dallas Plumbing <span className="text-blue-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to your questions about trenchless technology and sewer line restoration in Westchester County.
+            Answers to your questions about emergency plumbing and residential services in the Dallas Metroplex.
           </p>
         </div>
 

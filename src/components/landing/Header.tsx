@@ -38,26 +38,28 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                BRIARCLIFF MANOR
+                DALLAS
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-blue-600" : "text-blue-400"}`}>
-                SEWER <span className="text-[10px] opacity-70">PROS</span>
+                PLUMBING <span className="text-[10px] opacity-70">PROS</span>
               </span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden xl:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"
-                  }`}
-              >
-                {link.name}
-              </a>
-            ))}
+            <a href="#services" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
+              Services
+            </a>
+            <a href="#about" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
+              Why Us
+            </a>
+            <a href="#faq" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
+              FAQ
+            </a>
+            <a href="#contact" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
+              Contact
+            </a>
           </nav>
 
           {/* Contact Actions */}
@@ -91,16 +93,18 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="xl:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 animate-in fade-in slide-in-from-top-4 duration-300 h-screen">
           <div className="flex flex-col gap-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.name}
-              </a>
-            ))}
+            <a href="#services" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
+              Services
+            </a>
+            <a href="#about" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
+              Why Us
+            </a>
+            <a href="#faq" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
+              FAQ
+            </a>
+            <a href="#contact" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
+              Contact
+            </a>
             <div className="pt-6">
               <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 EMERGENCY LINE</p>
               <a href="tel:8777921410" className="text-3xl font-bold text-blue-500 block mb-6">
